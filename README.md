@@ -3,6 +3,7 @@
 ## Commands that I executed
 
 To Create Project
+
 `django-admin startproject mysite`
 
 To Create Polls App
@@ -11,6 +12,6 @@ To Create Polls App
 
 ## Update the Polls app
 
-1) Update The View 
+1. Update The View
 
-2) Create URL 
+2. Create URL
