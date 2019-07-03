@@ -24,4 +24,39 @@ def index(request):
 
 ```
 
-2. Create URL
+2. Create Polls URL
+
+`polls\url.py`
+
+```py
+from django.urls import path
+
+from . import views
+
+urlpatterns = [
+    path('', views.index, name='index'),
+]
+```
+
+3. Update Root URL
+
+`mysite\urls.py`
+
+```py
+from django.contrib import admin
+from django.urls import include, path
+
+urlpatterns = [
+    path('polls/', include('polls.urls')),
+    path('admin/', admin.site.urls),
+]
+
+```
+
+4. Run the Server 
+   
+   `python manage.py runserver`
+
+   go to url `http://localhost:8000/polls/`
+
+   ![My app running]()
