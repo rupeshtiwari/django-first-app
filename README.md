@@ -1,5 +1,7 @@
 # Welcome to my First Django App
 
+I am creating this app by refering https://docs.djangoproject.com/en/2.2/intro/tutorial01/
+
 ## Getting Started
 
 👉 **To Create Project**
