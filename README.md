@@ -55,7 +55,7 @@ urlpatterns = [
 
 ```
 
-4. **Run the Server **
+4. **Run the Server**
    
    `python manage.py runserver`
 
