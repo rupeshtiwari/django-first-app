@@ -2,6 +2,11 @@
 
 I am creating this app by refering https://docs.djangoproject.com/en/2.2/intro/tutorial01/
 
+## Prerequisites
+
+1. Install Python ( https://www.python.org/downloads/ )
+2. Install Django ( `pip install django` ) make sure you run powershell/cmd in administrator mode.
+
 ## Getting Started
 
 👉 **To Create Project**
@@ -12,7 +17,7 @@ I am creating this app by refering https://docs.djangoproject.com/en/2.2/intro/t
 
 `python manage.py startapp polls`
 
-## Update the Polls app
+##W
 
 1. **Update The View**
 
@@ -56,7 +61,7 @@ urlpatterns = [
 ```
 
 4. **Run the Server**
-   
+
    `python manage.py runserver`
 
    go to url `http://localhost:8000/polls/`
