@@ -14,4 +14,14 @@ To Create Polls App
 
 1. Update The View
 
+go to file `polls\views.py`
+
+```py
+from django.shortcuts import HttpResponse
+
+def index(request):
+    return HttpResponse("Hello, world. You're at the polls index.")
+
+```
+
 2. Create URL
