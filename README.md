@@ -59,4 +59,4 @@ urlpatterns = [
 
    go to url `http://localhost:8000/polls/`
 
-   ![My app running]()
+   ![My app running](https://github.com/rupeshtiwari/django-first-app/blob/master/docs/my%20first%20app%20running.PNG)
